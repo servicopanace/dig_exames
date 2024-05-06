@@ -5,9 +5,4 @@
 azure-functions
 logging
 azure-storage-blob
-PyPDF2
-msrest
-azure-cognitiveservices-vision-computervision
-openai
-pandas
-pyodbc
+
