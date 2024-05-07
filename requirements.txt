@@ -4,7 +4,7 @@
 
 azure-functions
 logging
-azure-storage-blob==12.19.1
+azure-storage-blob
 openai==0.28.0
 pandas==2.0.3
 pyodbc==4.0.39
