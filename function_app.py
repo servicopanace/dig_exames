@@ -1,5 +1,11 @@
 import azure.functions as func
 import logging
+import io
+import openai
+import pandas as pd
+import sys
+import pyodbc
+
 
 app = func.FunctionApp(http_auth_level=func.AuthLevel.FUNCTION)
 
