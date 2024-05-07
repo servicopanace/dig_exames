@@ -1,18 +1,6 @@
 import azure.functions as func
 import logging
 from azure.storage.blob import BlobServiceClient
-from PyPDF2 import PdfFileWriter, PdfFileReader, PdfFileMerger
-from msrest.authentication import CognitiveServicesCredentials
-from azure.cognitiveservices.vision.computervision import ComputerVisionClient
-from azure.cognitiveservices.vision.computervision.models import OperationStatusCodes
-from io import BytesIO
-import io
-import openai
-import pandas as pd
-from datetime import datetime
-import sys
-import pyodbc
-import requests
 
 
 app = func.FunctionApp(http_auth_level=func.AuthLevel.FUNCTION)
