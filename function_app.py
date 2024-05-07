@@ -1,6 +1,6 @@
 import azure.functions as func
 import logging
-from azure.storage.blob import BlobServiceClient
+import azure.storage.blob as BlobServiceClient
 
 
 app = func.FunctionApp(http_auth_level=func.AuthLevel.FUNCTION)
