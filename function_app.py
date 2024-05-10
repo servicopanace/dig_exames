@@ -1,6 +1,6 @@
 import azure.functions as func
 import logging
-
+import requests as req
 
 app = func.FunctionApp(http_auth_level=func.AuthLevel.FUNCTION)
 
@@ -24,3 +24,5 @@ def http_trigger1(req: func.HttpRequest) -> func.HttpResponse:
              "This HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response.",
              status_code=200
         )
+    
+
